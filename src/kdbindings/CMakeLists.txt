@@ -21,6 +21,9 @@ set(HEADERS
     connection_handle.h
     utils.h
     KDBindingsConfig.h
+    tween.h
+    property_animation.h
+    animation_driver.h
 )
 
 if(CMAKE_VERSION VERSION_GREATER_EQUAL "3.19.0")
